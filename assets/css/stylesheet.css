@@ -139,3 +139,62 @@ html {
    display: grid;
    place-items:center;
 }
+
+.color h4 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+}
+
+.colors {
+    display: flex;
+   
+}
+
+.color-1, .color-2, .color-3 {
+    width: 2rem;    
+    height: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.color-1 {
+    background:#87FF1D;
+    margin-right: 1.5rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.1);
+}
+
+.color-2 {
+    background:#bfdfbf;
+    margin-right: 1.5rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.1);
+}
+
+.color-3 {
+    background:#587596;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.1);
+}
+
+.price {
+    width: 16rem;
+    height: 4rem;
+    position:absolute;
+    right:-3rem;
+    bottom: 3.8rem;
+}
+
+.price span {
+ font-size: 2rem;   
+}
+
+.price span:first-child {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.price span:last-child {
+    font-weight: bold;
+}
